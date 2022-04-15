@@ -9,7 +9,7 @@ export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="flex flex-wrap items-center justify-between px-2 py-3 bg-white mb-3 shadow sticky top-0">
+      <nav className="flex flex-wrap items-center justify-between px-2 py-3 bg-white pb-3 shadow sticky top-0">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
@@ -39,9 +39,9 @@ export default function Navbar() {
           >
             <div className="lg:flex lg:items-center lg:justify-center w-full lg:w-auto">
               <div className="flex items-center w-full lg:w-auto">
-                <BsFillCartFill className="text-3xl inline-flex items-center mr-0 md:mr-6 text-red-600" />
+                <BsFillCartFill className="text-3xl inline-flex items-center mr-6 text-red-600" />
                 <button
-                  className="text-black font-sans tracking-wide font-semibold text-xl mr-0 md:mr-3 hover:bg-gray-700 px-5 py-2 rounded-full hover:text-white shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 w-1/2 lg:w-auto"
+                  className="text-black font-sans tracking-wide font-semibold text-xl mr-3 hover:bg-gray-700 px-5 py-2 rounded-full hover:text-white shadow hover:shadow-lg outline-none focus:outline-none  mb-1 ease-linear transition-all duration-150 w-1/2 lg:w-auto"
                   type="button"
                 >
                   Log In
